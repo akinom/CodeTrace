@@ -1,0 +1,28 @@
+.codeBlock {
+	width: 240px;
+}
+
+#Permutations {
+	position: relative;
+}
+
+#Permutations .coloredBoxes {
+	float: left;
+	margin-right: 5px;
+}
+
+#globalval: {
+	position: relative;
+}
+
+#globalval div {
+	float: left;
+	padding-right: 5px;
+}
+
+.coloredBoxes .box {
+	clear: both;
+	border-color: rgba(0,0,0,0);
+	margin-right: 5px;
+}
+

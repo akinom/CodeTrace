@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+		<link href="css/site.css" rel="stylesheet"/>
+		<link href="css/codetrace.css" rel="stylesheet"/>
+		<link href="css/mergesort.css" rel="stylesheet"/>
+
+		<!--
+		<script src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+
+		<script type="text/javascript" src="js/codetrace.js"></script>
+		<script type="text/javascript" src="js/mergesort/sort.js"></script>
+		<script type="text/javascript" src="js/mergesort/sortv2.js"></script>
+		<script type="text/javascript" src="mergesort.js"></script>
+		<title>Code Trace: Merge Sort </title>
+	</head>
+	<!--[if IE ]>
+	<body>
+	Get yourself a decent browser and you will see
+	</body>
+	<![endif]-->
+
+	<![if !IE ]>
+	<body onload='onLoad()'>
+		<header>
+			<div class="container container_12" style="overflow:visible;">
+				<div class="grid_12">
+					<h3>
+                        <a href="index.html"> <i>&#xf009;</i></a>
+						Animate: <span id="algo"> Algo </span> - <span id="data">Data</span></h3>
+				</div>
+			</div>
+		</header>
+
+		<div class="container container_12" style="overflow:visible;">
+			<div class='grid_12'>
+				<i id='next'  onclick='TheActionList.doMultiSteps()'> &#xf010; </i>
+				&nbsp;
+				<i id='run'  onclick='TheActionList.doRun()'> &#xf00f; </i>
+				&nbsp;
+				<i id='stop'  onclick='TheActionList.doStop()'> &#xf00e; </i>
+				&nbsp;
+				&nbsp;
+				<span id="reset">
+				<i onclick='loadProblem(TheAlgo, 7)'> &#xf025; <sub>7</sub> </i>
+				&nbsp;
+				<i 	onclick='loadProblem(TheAlgo, 25)'> &#xf025;<sub>25</sub> </i>
+				&nbsp;
+				<i onclick='loadProblem(TheAlgo, 50)'> &#xf025;<sub>50</sub> </i>
+				</span>
+			</div>
+			<div class='clear'></div>
+
+			<div class='grid_5' >
+				<div id="TheCode">
+					<span class='smallLabel'>&nbsp;
+						<br/>
+						&nbsp;</span>
+				</div>
+				<div id="TheLineCounter">
+					<span class='smallLabel'>Line
+						<br/>
+						Count</span>
+				</div>
+			</div>
+			<div class='grid_6'>
+				<span class='smallLabel'>&nbsp;
+					<br/>
+					&nbsp;</span>
+				<div id="TheArrayChart"></div>
+			</div>
+			<div class='clear'></div>
+
+			<div class='grid_12 spacer'></div>
+			<div class='clear'></div>
+
+			<div class='grid_5'>
+				<div id="TheStackTrace" style="min-height: 1px">
+					<span class='smallLabel'>&nbsp;
+						<br/>
+						&nbsp;</span>
+				</div>
+				<div id="TheLevelCounter">
+					<span class='smallLabel'>Recursion
+						<br/>
+						Level</span>
+				</div>
+			</div>
+			<div class='grid_6'>
+				<span class='smallLabel'>&nbsp;
+					<br/>
+					&nbsp;</span>
+				<div id="TheRangeCharts"></div>
+			</div>
+			<div class='clear'></div>
+
+			<div class='grid_12' >
+				<div id="log"></div>
+			</div>
+			<div class='clear'></div>
+		</div>
+
+		<div style="visibility:hidden;">
+			<div id="ColorPalette">
+				<div style=" color: rgb( 178, 24, 43);"></div>
+				<div style=" color: rgb( 214, 96, 77);"></div>
+				<div style=" color: rgb( 244, 165, 130);"></div>
+				<div style=" color: rgb( 253, 219, 199);"></div>
+				<div style=" color: rgb( 209, 229, 240);"></div>
+				<div style=" color: rgb( 146, 197, 222);"></div>
+				<div style=" color: rgb( 67, 147, 195);"></div>
+				<div style=" color: rgb( 33, 102, 172);"></div>
+				<div style=" color: rgb( 5, 48, 97);"></div>
+			</div>
+		</div>
+
+	</body>
+	<![endif]-->
+
+</html>

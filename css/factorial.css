@@ -1,0 +1,110 @@
+body {
+	background-color: #f1f1f1;
+}
+.framed {
+	border: 1px solid rgb(140, 56, 54);
+}
+
+.debug: {
+background-color: green;
+color: red;
+}
+
+.spacer {
+	height: 12px;
+}
+
+.smallLabel { 
+ 	font-size: smaller;
+}
+.codeBlock {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	width: 125px;
+}
+
+.codeBlock:hover {
+	z-index: 3000;
+}
+
+#TheProblem { 
+	padding-top: 7px; /* like nav menu */
+	font-weight: bold;
+
+}
+#TheCode .codeBlock {
+	margin-left: 11px;
+}
+
+#TheCode {
+	float: left;
+	position: relative;	
+}
+#TheLineCounter {
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}	
+#TheLineCounter .codeBlock { 
+	width: 2em;
+	text-align: right;
+}
+
+#TheStackTrace {
+	float: left;
+	position: relative;	
+}
+#TheLevelCounter {
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}	
+
+#TheLevelCounter .codeBlock .current {
+	font-weight: normal;
+	color: rgb(51, 102, 204);
+}
+
+#TheLevelCounter .codeBlock .executed {
+	font-weight: normal;
+	color: rgb(51, 102, 204);
+}
+
+#TheLevelCounter .codeBlock { 
+	width: 2em;
+	text-align: right;
+}
+
+
+.level1 {
+	left: 100px;
+}
+
+.level2 {
+	left: 200px;
+}
+.level3 {
+	left: 300px;
+}
+.level4 {
+	left: 400px;
+}
+.level5 {
+	left: 500px;
+}
+.level6 {
+	left: 600px;
+}
+.level7 {
+	left: 700px;
+}
+.level8 {
+	left: 800px;
+}
+.level9 {
+	left: 900px;
+}
+.level10 {
+	left: 1000px;
+}

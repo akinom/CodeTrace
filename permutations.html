@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+		<link href="css/site.css" rel="stylesheet"/>
+		<link href="css/codetrace.css" rel="stylesheet"/>
+		<link href="css/permutations.css" rel="stylesheet"/>
+
+		<!--
+		<script src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="js/codetrace.js"></script>
+		<script type="text/javascript" src="js/permutations/perm.js"></script>
+		<script type="text/javascript" src="permutations.js"></script>
+		<title>Code Trace: Permutations </title>
+	</head>
+	<!--[if IE ]>
+	<body>
+	Get yourself a decent browser and you will see
+	</body>
+	<![endif]-->
+
+	<![if !IE ]>
+	<body onload='onLoad()'>
+		<header>
+			<div class="container container_12" style="overflow:visible;">
+				<div class="grid_12">
+					<h3>
+						<a href="index.html"> <i>&#xf009;</i></a>
+						Animate: <span id="algo"> List Permutations of </span>  <span id="data">Data</span> Elements</h3>
+				</div>
+			</div>
+		</header>
+
+		<div class="container container_12" style="overflow:visible;margin-top:12px;">
+			<div class='grid_12'>
+				<i id='next'  onclick='TheActionList.doMultiSteps()'> &#xf010; </i>
+				&nbsp;
+				<i id='run'  onclick='TheActionList.doRun()'> &#xf00f; </i>
+				&nbsp;
+				<i id='stop'  onclick='TheActionList.doStop()'> &#xf00e; </i>
+				&nbsp;
+				&nbsp;
+				<span id="reset">
+				<i onclick='chooseProblem(AboutAlgo, 1)'>  &#xf025;<sub>1</sub> </i>
+				&nbsp;
+				<i onclick='chooseProblem(AboutAlgo, 2)'>  &#xf025;<sub>2</sub> </i>
+				&nbsp;
+				<i onclick='chooseProblem(AboutAlgo, 3)'>  &#xf025;<sub>3</sub> </i>
+				&nbsp;
+				<i onclick='chooseProblem(AboutAlgo, 4)'> &#xf025; <sub>4</sub> </i>
+				</span>
+			</div>
+			<div class='clear'></div>
+
+			<div class='grid_12 spacer'></div>
+			<div class='clear'></div>
+
+			<div class='grid_5' >
+				<div id="TheCode">
+					<span class='smallLabel'>&nbsp;
+						<br/>
+						&nbsp;</span>
+				</div>
+				<div id="TheLineCounter">
+					<span class='smallLabel'>Line
+						<br/>
+						Count</span>
+				</div>
+			</div>
+			<div class='grid_7'>
+				<span class='smallLabel'>Permutations
+					<br/>
+					&nbsp;</span>
+				<div id="Permutations"></div>
+			</div>
+			<div class='clear'></div>
+
+			<div class='grid_12 spacer'></div>
+			<div class='clear'></div>
+
+			<div class='grid_5'>
+				<div id="TheStackTrace" style="min-height: 1px">
+					<span class='smallLabel'>&nbsp;
+						<br/>
+						&nbsp;</span>
+				</div>
+				<div id="TheLevelCounter">
+					<span class='smallLabel'>Recursion
+						<br/>
+						Level</span>
+				</div>
+			</div>
+
+			<div class='grid_7'>
+
+				<div id='globalval'>
+					<div id="TheGlobalAvail">
+						<span class='smallLabel'> Global
+							<br/>
+							Avail
+							<br/>
+						</span>
+					</div>
+					<div id="TheGlobalPerm">
+						<span class='smallLabel'> Global
+							<br/>
+							Perm
+							<br/>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class='clear'></div>
+
+			<div class='grid_12' >
+				<div id="log"></div>
+			</div>
+			<div class='clear'></div>
+		</div>
+		<div id="ColorPalette">
+			<div style=" color: rgb( 178, 24, 43);"></div>
+			<div style=" color: rgb( 214, 96, 77);"></div>
+			<div style=" color: rgb( 244, 165, 130);"></div>
+			<div style=" color: rgb( 253, 219, 199);"></div>
+			<div style=" color: rgb( 209, 229, 240);"></div>
+			<div style=" color: rgb( 146, 197, 222);"></div>
+			<div style=" color: rgb( 67, 147, 195);"></div>
+			<div style=" color: rgb( 33, 102, 172);"></div>
+			<div style=" color: rgb( 5, 48, 97);"></div>
+		</div>
+		<div id="PermutationColors">
+			<div style="color:rgb(128, 177, 211)"></div>
+			<div style="color:rgb(255, 237, 111);"></div>
+			<div style="color:rgb(141, 211, 199);"></div>
+			<div style="color:rgb(251, 128, 114);"></div>
+			<div style="color:rgb(179, 222, 105);"></div>
+			<div style="color:rgb(188, 128, 189);"></div>
+		</div>
+	</body>
+	<![endif]-->
+
+</html>

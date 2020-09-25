@@ -1,0 +1,127 @@
+.rangeBar {
+	position: relative;
+	min-height: 1px;
+	height: 6px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.rangeBar div {
+	position: absolute;
+}
+
+.arrayChart {
+	border: 1px solid rgb(140, 56, 54);
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-top: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.arrayChart .column {
+	border-top-style: solid;
+	float: left;
+}
+
+.coloredBoxes {
+	border: 1px solid rgb(140, 56, 54);
+	background-color: rgb(235, 239, 249);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.coloredBoxes .box {
+	border-left: 12px solid rgb(140, 56, 54);
+	padding-left: 5px;
+}
+
+.codeBlock {
+	border: 1px solid rgb(140, 56, 54);
+	background-color: rgb(235, 239, 249);
+	color: rgb(0, 0, 0);
+	font-family: monospace;
+	font-weight: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.codeBlock:hover {
+	z-index: 3000;
+}
+
+.codeBlock span {
+	color: rgba(51, 102, 204, .8);
+	font-weight: normal;
+}
+
+.codeBlock .current {
+	font-weight: bold;
+	color: rgb(136, 0, 0);
+}
+
+.codeBlock .executed {
+	font-weight: bold;
+	color: rgb(51, 102, 204);
+}
+
+.codeStack {
+	position: relative;
+}
+
+.codeStack .codeBlock {
+	position: absolute;
+	border-left-style: solid;
+	border-left-width: 12px;
+}
+
+.codeStack .codeStackTop {
+	background-color: rgb(235, 239, 249);
+}
+
+.level1 {
+	top: 22px;
+}
+
+.level2 {
+	top: 44px;
+}
+.level3 {
+	top: 66px;
+}
+.level4 {
+	top: 88px;
+}
+.level5 {
+	top: 110px;
+}
+.level6 {
+	top: 132px;
+}
+.level7 {
+	top: 154px;
+}
+.level8 {
+	top: 176px;
+}
+.level9 {
+	top: 225px;
+}
+.level10 {
+	top: 250px;
+}
